@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: kokoro-fastapi
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: Dockerfile
+    healthCheckPath: /docs
+    envVars:
+      - key: PORT
+        value: 8000
