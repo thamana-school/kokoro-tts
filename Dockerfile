@@ -1,1 +1,2 @@
-FROM ghcr.io/remsky/kokoro-fastapi-cpu:latest
+FROM ghcr.io/remsky/kokoro-fastapi-gpu:latest
+
